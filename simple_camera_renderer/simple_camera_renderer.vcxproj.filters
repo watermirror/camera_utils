@@ -27,5 +27,8 @@
     <ClInclude Include="camera_event_delegate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="simple_camera_renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
