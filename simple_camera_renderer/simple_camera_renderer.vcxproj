@@ -79,7 +79,15 @@
     <ClInclude Include="camera_config_delegate.h" />
     <ClInclude Include="camera_delegate.h" />
     <ClInclude Include="camera_event_delegate.h" />
+    <ClInclude Include="camera_utils.h" />
+    <ClInclude Include="camera_vmr9.h" />
     <ClInclude Include="simple_camera_renderer.h" />
+    <ClInclude Include="simple_camera_renderer_observer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="camera_utils.cc" />
+    <ClCompile Include="camera_vmr9.cc" />
+    <ClCompile Include="simple_camera_renderer.cc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

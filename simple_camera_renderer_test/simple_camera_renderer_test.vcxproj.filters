@@ -18,37 +18,46 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="camera_config_delegate.h">
+    <ClInclude Include="simple_camera_renderer_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="camera_delegate.h">
+    <ClInclude Include="simple_camera_renderer_test_dialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="camera_event_delegate.h">
+    <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="simple_camera_renderer.h">
+    <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="camera_vmr9.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="simple_camera_renderer_observer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="camera_utils.h">
+    <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="simple_camera_renderer.cc">
+    <ClCompile Include="simple_camera_renderer_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="camera_vmr9.cc">
+    <ClCompile Include="simple_camera_renderer_test_dialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="camera_utils.cc">
+    <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="simple_camera_renderer_test.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\simple_camera_renderer_test.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\simple_camera_renderer_test.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

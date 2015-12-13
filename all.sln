@@ -5,6 +5,11 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_camera_renderer", "simple_camera_renderer\simple_camera_renderer.vcxproj", "{5F37D0D0-A7C9-4020-851B-723FF86E423B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_camera_renderer_test", "simple_camera_renderer_test\simple_camera_renderer_test.vcxproj", "{B6067897-7E82-4757-9E08-F895D86A5D70}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F37D0D0-A7C9-4020-851B-723FF86E423B} = {5F37D0D0-A7C9-4020-851B-723FF86E423B}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +20,10 @@ Global
 		{5F37D0D0-A7C9-4020-851B-723FF86E423B}.Debug|Win32.Build.0 = Debug|Win32
 		{5F37D0D0-A7C9-4020-851B-723FF86E423B}.Release|Win32.ActiveCfg = Release|Win32
 		{5F37D0D0-A7C9-4020-851B-723FF86E423B}.Release|Win32.Build.0 = Release|Win32
+		{B6067897-7E82-4757-9E08-F895D86A5D70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B6067897-7E82-4757-9E08-F895D86A5D70}.Debug|Win32.Build.0 = Debug|Win32
+		{B6067897-7E82-4757-9E08-F895D86A5D70}.Release|Win32.ActiveCfg = Release|Win32
+		{B6067897-7E82-4757-9E08-F895D86A5D70}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

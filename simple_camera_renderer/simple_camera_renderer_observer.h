@@ -3,7 +3,7 @@
 
 namespace camera {
 
-class CameraEventDelegate {
+class SimpleCameraRendererObserver {
  public:
   virtual void OnSnapshot(const char* dib_data, int data_size) = 0;
 
